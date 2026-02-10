@@ -51,7 +51,7 @@ IS_VS/
 
 ### R Dependencies
 
-R version: 4.3.0 or later
+R version: 4.2.2
 
 | Package | Version | Description |
 |---------|---------|-------------|
@@ -95,15 +95,6 @@ Python version: 3.10 or later
 
 ### R Setup
 
-```r
-# Navigate to R_methods folder
-setwd("path/to/R_methods")
-
-# Run the installation script
-source("install_packages.R")
-```
-
-Or install manually:
 
 ```r
 install.packages(c(
@@ -131,21 +122,25 @@ pip install numpy pandas pyDOE scipy scikit-learn matplotlib dill
 ### Table 1: R Methods (All methods except ECL)
 
 ```r
-# Set working directory to R_methods folder
-setwd("path/to/R_methods")
 
 # Source main script
 source("main.R")
 
-# Run all methods on all examples (100 replications, 25 cores)
-all_results <- run_all_examples(n_reps = 100, ncores = 25)
+# Run a single method for one example
+  result <- run_method(1, 'IS-VS', n_reps = 25, ncores = 25)
 
-# Or run individual examples/methods:
-result_ex1 <- run_method(1, "IS-VS", n_reps = 100, ncores = 25)
-result_ex2 <- run_method(2, "OptiTree", n_reps = 100, ncores = 25)
+# Run all methods for one example
+  ex1_results <- run_example(1, n_reps = 25, ncores = 25)
+
+# Run everything (all 4 examples, all 8 methods)
+  all_results <- run_all_examples(n_reps = 25, ncores = 25)
+
+# Generate and print result table
+  table <- generate_result_table(all_results)
+  print_result_table(table)
 ```
 
-**Available methods:** IS-VS, IS-CE, IS-Pareto, WAMK-SIS, Lasso, SpAM, RF-RFE, OptiTree
+**Available methods:** IS-VS, IS-CE, IS-Pareto, WAMK-SIS, Lasso, SpAM, RF-RFE, OptiTreeStrat
 
 **Estimated run time:** ~14 hours total (25 cores, 100 replications)
 
@@ -159,7 +154,7 @@ Open and run the Jupyter notebooks in the `Python_ECL` folder:
 
 Each notebook is self-contained and can be run independently.
 
-**Estimated run time:** ~2 hours per example
+**Estimated run time:** ~2 days per example
 
 ---
 
@@ -192,9 +187,7 @@ Each notebook is self-contained and can be run independently.
 
 ## Notes
 
-- Random seeds are set for reproducibility. Default seed_base = 123.
-- Numerical results may have minor variations (< 1% relative difference) due to parallel execution order.
-- Run times are estimated based on a 25-core machine. Adjust `ncores` parameter based on your system.
+The implementation of the ECL baseline method is adapted from publicly available reference implementations associated with prior work, with modifications to ensure consistency with the experimental setup used in this paper.
 
 ---
 
