@@ -88,16 +88,7 @@ Required Python packages include:
 numpy, pandas, pyDOE, scipy, scikit-learn, matplotlib, dill
 
 ----------------------------------------------------------------------
-E. Numerical Examples
-----------------------------------------------------------------------
-
-Example 1: Dimension 4, independent inputs
-Example 2: Dimension 5, correlated inputs
-Example 3: Dimension 10, higher dimension
-Example 4: Dimension 50, high dimension
-
-----------------------------------------------------------------------
-F. Notes
+E. Notes
 ----------------------------------------------------------------------
 
 The implementation of the ECL baseline method is adapted from publicly
