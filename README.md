@@ -20,11 +20,14 @@ All R-based methods are implemented in the `R_methods` folder.
     
    source("main.R")
    
-   all_results <- run_all_examples(n_reps = 25, ncores = 25)
+   all_results <- run_all_examples(n_reps = 25, ncores = 25) 
    
    table <- generate_result_table(all_results)
    
    print_result_table(table)
+
+Here, `ncores` denotes the number of CPU cores used for parallel computation.
+Users can set this value according to the number of cores available on their machine.
     
 4. The results will appear in the console.
 
