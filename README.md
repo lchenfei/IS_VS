@@ -76,7 +76,7 @@ R version: 4.2.2
 
 ### Python Dependencies
 
-Python version: 3.10 or later
+Python version: 3.11
 
 | Package | Version | Description |
 |---------|---------|-------------|
