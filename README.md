@@ -28,10 +28,12 @@ All R-based methods are implemented in the `R_methods` folder.
     
 4. The results will appear in the console.
 
-Optional usage:
+Optional: running subsets of experiments
+
+After sourcing `main.R`, you may run the following commands:
 
 - Run a single method for one example:
-  
+
   result <- run_method(1, "IS-VS", n_reps = 25, ncores = 25)
 
 - Run all methods for one example:
