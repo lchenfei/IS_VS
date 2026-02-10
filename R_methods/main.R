@@ -402,7 +402,7 @@ Quick Start:
   # Run all methods for one example
   ex1_results <- run_example(1, n_reps = 25, ncores = 25)
 
-  # Run everything (all 4 examples, all 7 methods)
+  # Run everything (all 4 examples, all 8 methods)
   all_results <- run_all_examples(n_reps = 25, ncores = 25)
 
   # Generate and print result table
