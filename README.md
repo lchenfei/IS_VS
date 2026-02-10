@@ -72,9 +72,10 @@ C. Software Requirements
 R version: 4.2.2
 
 Required R packages include:
-doParallel, foreach, truncnorm, rootSolve, rmutil, pracma, mvtnorm,
-cubature, caret, lhs, LHD, R.utils, crch, loo, GauPro, DiceKriging,
+doParallel, truncnorm, splines, rootSolve, rmutil, pracma, mvtnorm,
+cubature, caret, stats, lhs, LHD, R.utils, crch, loo, GauPro, DiceKriging, kernlab, 
 SAM, glmnet, randomForest
+
 
 Python version: 3.11
 
