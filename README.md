@@ -46,7 +46,7 @@ Available methods:
 IS-VS, IS-CE, IS-Pareto, WAMK-SIS, Lasso, SpAM, RF-RFE, OptiTreeStrat
 
 ----------------------------------------------------------------------
-B. Reproducing the ECL Baseline (Python)
+B. Reproducing the ECL Baseline 
 ----------------------------------------------------------------------
 
 The ECL baseline is implemented in Python and provided separately in the
