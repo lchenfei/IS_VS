@@ -141,7 +141,7 @@ source("main.R")
 
 **Available methods:** IS-VS, IS-CE, IS-Pareto, WAMK-SIS, Lasso, SpAM, RF-RFE, OptiTreeStrat
 
-**Estimated run time:** ~14 hours total (25 cores, 100 replications)
+**Estimated run time:** ~14 hours total (25 cores, 25 replications)
 
 ### Table 1: ECL Baseline (Python)
 
