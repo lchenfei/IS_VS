@@ -63,19 +63,7 @@ Estimated runtime:
 Approximately 2 days per example.
 
 ----------------------------------------------------------------------
-C. Repository Structure (Key Files Only)
-----------------------------------------------------------------------
-
-R_methods/
-  main.R              Main script to reproduce all R-based results
-  Ex1/, Ex2/, Ex3/, Ex4/
-                      Numerical examples
-
-Python_ECL/
-  ecl_example*.ipynb  Jupyter notebooks for the ECL baseline
-
-----------------------------------------------------------------------
-D. Software Requirements
+C. Software Requirements
 ----------------------------------------------------------------------
 
 R version: 4.2.2
@@ -91,7 +79,7 @@ Required Python packages include:
 numpy, pandas, pyDOE, scipy, scikit-learn, matplotlib, dill
 
 ----------------------------------------------------------------------
-E. Notes
+D. Notes
 ----------------------------------------------------------------------
 
 The implementation of the ECL baseline method is adapted from publicly
