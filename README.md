@@ -1,14 +1,15 @@
 
-
+----------------------------------------------------------------------
 This repository contains the code to reproduce the numerical experiments
 reported in the paper:
-==================================================================
 
 “Dimension Reduction in Importance Sampling: Balancing Concentration and Exploration through Variable Selection”.
-==================================================================
+----------------------------------------------------------------------
 
+
+----------------------------------------------------------------------
 The code reproduces the results in Table 1. 
-==================================================================
+----------------------------------------------------------------------
 
 ----------------------------------------------------------------------
 A. Reproducing Table 1 (All Methods Excluding ECL)
@@ -17,7 +18,7 @@ A. Reproducing Table 1 (All Methods Excluding ECL)
 All R-based methods are implemented in the `R_methods` folder.
 
 1. Open RStudio and set working directory to R_methods folder
-2. Run the following code:
+2. Run the following command to reproduce all R-based results:
     
    source("main.R")
    
@@ -47,7 +48,7 @@ Available methods:
 IS-VS, IS-CE, IS-Pareto, WAMK-SIS, Lasso, SpAM, RF-RFE, OptiTreeStrat
 
 ----------------------------------------------------------------------
-B. Reproducing Table 1 (ECL)
+B. Reproducing the ECL Baseline (Python)
 ----------------------------------------------------------------------
 
 The ECL baseline is implemented in Python and provided separately in the
