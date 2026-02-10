@@ -2,11 +2,13 @@
 
 This repository contains the code to reproduce the numerical experiments
 reported in the paper:
+==================================================================
 
 “Dimension Reduction in Importance Sampling: Balancing Concentration and Exploration through Variable Selection”.
+==================================================================
 
 The code reproduces the results in Table 1. 
-
+==================================================================
 
 ----------------------------------------------------------------------
 A. Reproducing Table 1 (All Methods Excluding ECL)
