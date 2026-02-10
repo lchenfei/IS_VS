@@ -8,24 +8,27 @@ This repository contains the code to reproduce the numerical experiments in the 
 IS_VS/
 ├── R_methods/                      # R implementation (all methods except ECL)
 │   ├── main.R                      # Main runner script
-│   ├── install_packages.R          # Package installation script
+│   ├── Additive_S.R                # Additive model functions
 │   ├── AMISE_bivariate.R           # Bandwidth optimization (IS methods)
 │   ├── AMISE_univariate.R          # Bandwidth optimization (IS methods)
 │   ├── AMISE_univariate_OptiTree.R # Bandwidth optimization (OptiTree)
-│   ├── Additive_S.R                # Additive model functions
+│   ├── cv.R                        # cross validation function
 │   ├── function_OptiTreeStrata_independent.R
 │   ├── function_OptiTreeStrata_dependent.R
 │   ├── function_OptiTreeStrata_highdim.R
+|   |── function_ex1.R
+|   |── function_ex2.R
+|   |── function_ex3.R
+|   |── function_ex4.R
 │   ├── Ex1/                        # Example 1 (D=4)
-│   │   ├── functions_ex1.R
 │   │   └── methods/
 │   │       ├── ex1_IS_VS.R
 │   │       ├── ex1_IS_CE.R
 │   │       ├── ex1_IS_Pareto.R
-│   │       ├── ex1_WAMK_SIS.R
+│   │       ├── ex1_wamk.R
 │   │       ├── ex1_Lasso.R
 │   │       ├── ex1_SpAM.R
-│   │       ├── ex1_RF_RFE.R
+│   │       ├── ex1_randomForest.R
 │   │       └── ex1_OptiTreeStrata.R
 │   ├── Ex2/                        # Example 2 (D=5, correlated)
 │   ├── Ex3/                        # Example 3 (D=10)
