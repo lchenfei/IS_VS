@@ -9,7 +9,7 @@ reported in the paper:
 The code reproduces the results in Table 1. 
 
 ----------------------------------------------------------------------
-A. Reproducing Table 1 (R-based methods, excluding ECL)
+A. Reproducing Table 1 (All Methods Excluding ECL)
 ----------------------------------------------------------------------
 
 All R-based methods are implemented in the `R_methods` folder.
@@ -42,7 +42,7 @@ Available methods:
 IS-VS, IS-CE, IS-Pareto, WAMK-SIS, Lasso, SpAM, RF-RFE, OptiTreeStrat
 
 ----------------------------------------------------------------------
-B. Reproducing the ECL Baseline (Python)
+B. Reproducing Table 1 (ECL)
 ----------------------------------------------------------------------
 
 The ECL baseline is implemented in Python and provided separately in the
