@@ -39,7 +39,6 @@ IS_VS/
 │   ├── eclGP.py                    # Gaussian Process for ECL
 │   ├── MFIS_Simulation.py          # MFIS simulation functions
 │   ├── psis.py                     # Pareto Smoothed Importance Sampling
-│   ├── data/                       # Data folder
 │   └── mfis/                       # MFIS helper functions
 │
 └── README.md                       # This file
@@ -98,10 +97,10 @@ Python version: 3.10 or later
 
 ```r
 install.packages(c(
-  "doParallel", "foreach", "truncnorm", "rootSolve", "rmutil",
-  "pracma", "mvtnorm", "cubature", "caret", "lhs", "LHD",
-  "R.utils", "crch", "loo", "GauPro", "DiceKriging",
-  "SAM", "glmnet", "randomForest"
+  "doParallel", "truncnorm", "splines", "rootSolve", "rmutil", 
+                       "pracma", "mvtnorm", "cubature", "caret", "stats", "lhs", 
+                       "LHD", "R.utils", "crch", "loo", "GauPro", "DiceKriging", "kernlab", 
+                       "SAM", "glmnet", "randomForest"
 ))
 ```
 
