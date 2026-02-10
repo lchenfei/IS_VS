@@ -26,8 +26,8 @@ All R-based methods are implemented in the `R_methods` folder.
    
    print_result_table(table)
 
-Here, `ncores` denotes the number of CPU cores used for parallel computation.
-Users can set this value according to the number of cores available on their machine.
+  Here, `ncores` denotes the number of CPU cores used for parallel computation.
+  Users can set this value according to the number of cores available on their machine.
     
 4. The results will appear in the console.
 
