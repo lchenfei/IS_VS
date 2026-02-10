@@ -96,8 +96,8 @@ Python version: 3.11
 
 
 ```r
-install.packages(c(
-  "doParallel", "truncnorm", "splines", "rootSolve", "rmutil", 
+install.packages(
+c("doParallel", "truncnorm", "splines", "rootSolve", "rmutil", 
                        "pracma", "mvtnorm", "cubature", "caret", "stats", "lhs", 
                        "LHD", "R.utils", "crch", "loo", "GauPro", "DiceKriging", "kernlab", 
                        "SAM", "glmnet", "randomForest"
