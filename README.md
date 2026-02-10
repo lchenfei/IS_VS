@@ -18,11 +18,14 @@ All R-based methods are implemented in the `R_methods` folder.
 2. Run the following code:
     
    source("main.R")
+   
    all_results <- run_all_examples(n_reps = 100, ncores = 25)
+   
    table <- generate_result_table(all_results)
+   
    print_result_table(table)
     
-3. The results will appear in the console.
+4. The results will appear in the console.
 
 Optional usage:
 
